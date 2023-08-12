@@ -1,6 +1,6 @@
-# GTK Hello World Application
+# GTK Examples
 
-- Simple GTK Application in C
+- Simple GTK Applications in C
 
 ## Build
 
