@@ -15,7 +15,7 @@ all: $(NAME)
 	$(CC) -c -o $(@F) $(CFLAGS) $<
 
 $(NAME): $(OBJS)
-	$(CC) -o $(@F) $^ $(LIBS)
+	$(CC) -o $(@F) $(LIBS) $^
 
 clean:
 	$(RM) $(OBJS)
